@@ -8,21 +8,21 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8d1891;
+    /* background-color: #8d1891; */
     column-gap: 30px;
 }
 .form{
-    /* position: absolute; */
+    position: absolute;
     max-width: 530px;
     width: 100%;
     padding: 30px;
     border-radius: 6px;
-    background: #FFF;
+    background: #fff;
 }
 .form.signup{
     opacity: 0;
