@@ -1,7 +1,8 @@
 import React from "react";
 import "./login.css";
-import formImg from "./images/form-img.png";
+// import formImg from "./images/form-img.png";
 import google from "./images/google.png";
+import loginImg from './images/login-img.png';
 import {FaEyeSlash, FaEye} from  'react-icons/fa';
 function Login() {
 
@@ -40,7 +41,7 @@ function Login() {
             </span>
           </div>
           <div className="form-img">
-            <img src={formImg} alt="" />
+            <img src={loginImg} alt="" />
           </div>
           <form action="#">
             <div className="field input-field">

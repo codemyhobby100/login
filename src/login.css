@@ -21,7 +21,6 @@
     max-width: 530px;
     width: 100%;
     padding: 30px;
-    border-radius: 6px;
     background: #fff;
 }
 .form.signup{
@@ -49,8 +48,7 @@ form{
     position: relative;
     height: 50px;
     width: 100%;
-    margin-top: 20px;
-    border-radius: 6px;
+    margin-top: 10px;
 }
 
 .form-img{
@@ -61,8 +59,8 @@ form{
 }
 
 .form-img img{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
 }
 
 .field input,
@@ -72,7 +70,6 @@ form{
     border: none;
     font-size: 16px;
     font-weight: 400;
-    border-radius: 6px;
 }
 .field input{
     outline: none;
@@ -94,12 +91,12 @@ form{
 }
 .field button{
     color: #fff;
-    background-color: rgb(90, 8, 114);
+    background-color: #6750A4;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .field button:hover{
-    background-color: rgb(90, 8, 114);
+    background-color: #6750A4;
 }
 .form-link{
     text-align: center;
@@ -119,7 +116,7 @@ form{
 }
 
 .form a{
-    color: #8d1891;
+    color: #6750A4;
     text-decoration: none;
 }
 .form-content a:hover{
@@ -147,21 +144,7 @@ form{
     align-items: center;
     justify-content: center;
 }
-a.facebook{
-    color: #fff;
-    background-color: #4267b2;
-}
-a.facebook .facebook-icon{
-    height: 28px;
-    width: 28px;
-    color: #0171d3;
-    font-size: 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-}
+
 .facebook-icon,
 img.google-img{
     position: absolute;
