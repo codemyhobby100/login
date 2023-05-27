@@ -87,19 +87,19 @@ form{
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    font-size: 18px;
+    font-size: 28px;
     color: #8b8b8b;
     cursor: pointer;
     padding: 5px;
 }
 .field button{
     color: #fff;
-    background-color: #8d1891;
+    background-color: rgb(90, 8, 114);
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .field button:hover{
-    background-color: #8d1891;
+    background-color: rgb(90, 8, 114);
 }
 .form-link{
     text-align: center;

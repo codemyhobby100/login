@@ -2,7 +2,30 @@ import React from "react";
 import "./login.css";
 import formImg from "./images/form-img.png";
 import google from "./images/google.png";
+import {FaEyeSlash, FaEye} from  'react-icons/fa';
 function Login() {
+
+  // const forms = document.querySelector(".forms"),
+  let pwShowHide = document.querySelectorAll(".eye-icon")
+  // links = document.querySelectorAll(".link");
+
+  pwShowHide.forEach(eyeIcon => {
+  eyeIcon.addEventListener("click", () => {
+    let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
+    
+    pwFields.forEach(password => {
+        if(password.type === "password"){
+            password.type = "text";
+            eyeIcon.classList.replace(FaEyeSlash, FaEye);
+            return;
+        }
+        password.type = "password";
+        eyeIcon.classList.replace( FaEye, FaEyeSlash);
+    })
+    
+  })
+})
+
   return (
     <div className="container form">
       <div className="form login">
@@ -30,7 +53,8 @@ function Login() {
                 placeholder="Password"
                 className="password"
               />
-              <i className="bx bx-hide eye-icon"></i>
+              <FaEyeSlash className="eye-icon"/>
+              {/* <i className="bx bx-hide eye-icon"></i> */}
             </div>
 
             <div className="field button-field">
